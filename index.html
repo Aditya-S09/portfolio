@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aditya Shinde | Product Manager</title>
+<meta name="description" content="Aditya Shinde is a product manager who built B2B climate-tech products at Karbunwise: an LCA platform, a CBAM compliance platform and an emission-factor matching engine.">
+<meta property="og:title" content="Aditya Shinde | Product Manager">
+<meta property="og:description" content="Product manager for B2B carbon-accounting products at Karbunwise. Doubled LCA revenue in 8 months, launched CBAM compliance from zero, rebuilt an ML engine from 45% to 83%.">
+<meta property="og:image" content="assets/ill/cup.webp">
+<meta name="theme-color" content="#ebe2d0">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>
+/* A sketchbook on kraft paper, read top to bottom. Classic serif display, clean grotesk body,
+   engraved coffee drawings in the margins. Every colour set explicitly. */
+:root{
+  --paper:#ebe2d0;
+  --paper-deep:#e2d6c0;
+  --ink:#241d18;
+  --soft:#5f5348;
+  --rule:rgba(36,29,24,.2);
+  --rule-soft:rgba(36,29,24,.12);
+  --brown:#6a4128;
+  --cherry:#9f3a2b;
+  --card:rgba(255,252,245,.55);
+  --serif:"Gloock","Bodoni 72","Didot",Georgia,serif;
+  --sans:"Hanken Grotesk","Helvetica Neue",Arial,system-ui,sans-serif;
+  color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box;}
+html{background:var(--paper);scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
+  font-size:1.05rem;line-height:1.58;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.5;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.42  0 0 0 0 0.33  0 0 0 0 0.22  0 0 0 0.22 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");}
+img{max-width:100%;display:block;}
+h1,h2,h3,h4,p,ul,ol,figure,blockquote{margin:0;}
+ul{padding:0;list-style:none;}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:.22em;}
+a:hover{text-decoration-color:var(--cherry);text-decoration-thickness:2px;}
+:focus-visible{outline:2px solid var(--cherry);outline-offset:3px;border-radius:3px;}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:400;letter-spacing:-.01em;line-height:1.05;text-wrap:balance;}
+
+.wrap{width:min(1080px,100% - 2.6rem);margin-inline:auto;position:relative;z-index:1;}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+
+/* top bar */
+.top{position:sticky;top:0;z-index:40;background:rgba(235,226,208,.85);
+  backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);border-bottom:1px solid var(--rule-soft);}
+.top .wrap{display:flex;align-items:center;gap:1rem;height:62px;}
+.wordmark{font-family:var(--serif);font-size:1.28rem;text-decoration:none;margin-right:auto;}
+.topnav{display:flex;gap:1.5rem;align-items:center;}
+.topnav a:not(.btn){color:var(--soft);font-weight:500;font-size:.96rem;text-decoration:none;}
+.topnav a:not(.btn):hover{color:var(--ink);}
+.btn{display:inline-flex;align-items:center;gap:.5rem;font:600 .92rem/1 var(--sans);
+  padding:.72rem 1.15rem;border-radius:999px;border:1.5px solid var(--ink);color:var(--ink);
+  background:transparent;text-decoration:none;cursor:pointer;transition:background-color .2s,color .2s,border-color .2s;}
+.btn:hover{background:var(--ink);color:var(--paper);}
+.btn.solid{background:var(--ink);color:var(--paper);}
+.btn.solid:hover{background:var(--brown);border-color:var(--brown);}
+.btn.sm{padding:.56rem .9rem;font-size:.88rem;}
+@media (max-width:720px){.topnav a:not(.btn){display:none;}}
+
+/* section scaffold */
+section{position:relative;}
+section[id]{scroll-margin-top:76px;}
+.band{padding:clamp(2.6rem,5vw,4rem) 0;}
+.ill{position:absolute;pointer-events:none;user-select:none;z-index:0;opacity:.9;height:auto;}
+h2.hd{font-size:clamp(2.1rem,4.4vw,3.1rem);margin-bottom:1.6rem;}
+.divider{width:min(1080px,100% - 2.6rem);margin:0 auto;height:1px;background:var(--rule);position:relative;z-index:1;}
+
+/* hero */
+.hero{padding:clamp(2rem,4.5vw,3.2rem) 0 clamp(1rem,2.5vw,1.8rem);}
+.herotext{max-width:42rem;}
+.hero h1{font-size:clamp(3rem,7vw,5.2rem);line-height:.95;letter-spacing:-.02em;}
+.hero .pitch{font-family:var(--serif);font-size:clamp(1.3rem,2.3vw,1.85rem);line-height:1.22;
+  max-width:20ch;margin-top:1.1rem;}
+.hero .lede{margin-top:1.1rem;max-width:40ch;font-size:1.06rem;color:var(--ink);}
+.hero .actions{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1.5rem;}
+.portrait{position:relative;}
+.portrait img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 22%;border-radius:2px;
+  filter:sepia(.22) saturate(.8) contrast(1.03);
+  box-shadow:0 1px 0 rgba(0,0,0,.05),0 20px 44px -16px rgba(36,29,24,.4);}
+.portrait figcaption{margin-top:.8rem;font-size:.88rem;color:var(--soft);display:flex;align-items:center;gap:.5rem;}
+.portrait figcaption::before{content:"";width:.5rem;height:.5rem;border-radius:50%;background:var(--cherry);flex:none;}
+.portrait .cupart{position:absolute;width:62%;left:-42%;top:50%;opacity:.95;}
+
+/* metric band */
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:1.4rem;margin-top:clamp(2rem,4vw,2.8rem);}
+.metric{border-top:2px solid var(--ink);padding-top:.9rem;}
+.metric b{font-family:var(--serif);font-weight:400;font-size:clamp(1.9rem,3.4vw,2.7rem);
+  display:block;line-height:1;letter-spacing:-.01em;}
+.metric span{display:block;margin-top:.5rem;font-size:.92rem;color:var(--soft);line-height:1.35;}
+@media (max-width:720px){.metrics{grid-template-columns:1fr 1fr;gap:1.3rem 1.1rem;}}
+
+/* about */
+.about-lede{font-family:var(--serif);font-size:clamp(1.5rem,2.8vw,2rem);line-height:1.25;max-width:24ch;}
+.principles{margin-top:2.2rem;display:grid;grid-template-columns:repeat(3,1fr);gap:2.2rem;}
+.principle{padding-top:1rem;border-top:1px solid var(--ink);}
+.principle h3{font-size:1.45rem;margin-bottom:.55rem;}
+.principle p{font-size:.98rem;color:var(--soft);}
+@media (max-width:760px){.principles{grid-template-columns:1fr;gap:1.6rem;}}
+
+/* karbunwise */
+.kw-top{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem 2.5rem;align-items:end;margin-bottom:.4rem;}
+.kw-top h3{font-size:clamp(1.7rem,3vw,2.3rem);}
+.kw-top .meta{font-weight:600;color:var(--brown);margin-top:.4rem;}
+.kw-top p{color:var(--ink);font-size:1.02rem;}
+.wins{margin-top:1.8rem;border-top:2px solid var(--ink);}
+.win{display:grid;grid-template-columns:clamp(6.5rem,13vw,9rem) 1fr;gap:1.6rem;
+  padding:1.3rem 0;border-bottom:1px solid var(--rule);align-items:baseline;}
+.win .fig{font-family:var(--serif);font-size:clamp(1.6rem,2.8vw,2.2rem);line-height:1;white-space:nowrap;}
+.win .fig small{display:block;font-family:var(--sans);font-weight:600;font-size:.7rem;color:var(--cherry);margin-top:.35rem;letter-spacing:.02em;}
+.win h4{font-size:1.2rem;margin-bottom:.35rem;}
+.win p{font-size:.98rem;color:var(--soft);max-width:62ch;}
+@media (max-width:620px){.win{grid-template-columns:1fr;gap:.45rem;}}
+
+/* case studies */
+.case{display:grid;grid-template-columns:230px 1fr;gap:clamp(1.4rem,3vw,2.6rem);
+  padding:clamp(1.8rem,3.5vw,2.6rem) 0;border-top:1px solid var(--rule);align-items:start;}
+.case:first-of-type{border-top:2px solid var(--ink);}
+.sketch{position:sticky;top:84px;}
+.plate{padding:.3rem;min-height:160px;display:flex;align-items:center;justify-content:center;}
+.plate img{width:auto;max-width:94%;max-height:168px;mix-blend-mode:multiply;}
+.sketch .cap{margin-top:.6rem;font-size:.84rem;color:var(--soft);font-style:italic;}
+.case h3{font-size:clamp(1.5rem,2.8vw,2rem);margin-bottom:.7rem;}
+.case .body{font-size:1rem;color:var(--ink);max-width:66ch;}
+.case .body b{font-weight:600;}
+.case .out{margin-top:1rem;padding-top:.9rem;border-top:1px solid var(--rule);
+  display:flex;flex-wrap:wrap;gap:.6rem 1.3rem;align-items:baseline;}
+.case .out .r{font-family:var(--serif);font-size:1.04rem;line-height:1.3;flex:1 1 20rem;}
+.case .out .r mark{background:transparent;color:var(--cherry);font-style:italic;}
+.case .out a{font-weight:600;font-size:.94rem;white-space:nowrap;}
+@media (max-width:720px){.case{grid-template-columns:1fr;}.sketch{position:static;max-width:260px;}}
+
+/* more work */
+.more{margin-top:2.4rem;display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;}
+.more .m{padding-top:1rem;border-top:1px solid var(--ink);}
+.more .m .k{font-size:.84rem;color:var(--brown);font-weight:600;margin-bottom:.4rem;}
+.more .m h4{font-size:1.3rem;margin-bottom:.4rem;}
+.more .m p{font-size:.95rem;color:var(--soft);}
+.more .m a{display:inline-block;margin-top:.5rem;font-weight:600;font-size:.92rem;}
+@media (max-width:760px){.more{grid-template-columns:1fr;gap:1.6rem;}}
+
+/* earlier */
+.jobs{border-top:2px solid var(--ink);}
+.job{display:grid;grid-template-columns:clamp(8rem,15vw,11rem) 1fr;gap:1.6rem;
+  padding:1.4rem 0;border-bottom:1px solid var(--rule);}
+.job .when{color:var(--soft);font-size:.9rem;}
+.job h4{font-size:1.3rem;}
+.job .role{color:var(--brown);font-weight:600;font-size:.95rem;margin:.15rem 0 .5rem;}
+.job p{font-size:.98rem;color:var(--soft);max-width:66ch;}
+@media (max-width:620px){.job{grid-template-columns:1fr;gap:.4rem;}}
+
+/* background */
+.bg-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.4rem 3.2rem;}
+.bg h3{font-size:1.4rem;margin-bottom:.9rem;}
+.bg li{padding:.65rem 0;border-top:1px solid var(--rule);}
+.bg li:first-child{border-top:0;padding-top:0;}
+.bg li b{font-weight:600;}
+.bg li span{display:block;color:var(--soft);font-size:.9rem;margin-top:.1rem;}
+.bg-note{grid-column:1/-1;font-family:var(--serif);font-size:1.15rem;color:var(--ink);max-width:52ch;line-height:1.35;}
+.certs{grid-column:1/-1;border-top:1px solid var(--rule);padding-top:1.5rem;}
+.certs h3{font-size:1.4rem;margin-bottom:1rem;}
+.certs ul{display:flex;flex-wrap:wrap;gap:.6rem;}
+.certs li{border:1px solid var(--rule);border-radius:999px;padding:.5rem 1rem;font-size:.92rem;background:var(--card);}
+.certs li a{font-weight:600;text-decoration:none;}
+.certs li a:hover{text-decoration:underline;text-decoration-color:var(--cherry);}
+@media (max-width:680px){.bg-grid{grid-template-columns:1fr;gap:1.8rem;}}
+
+/* contact */
+.contact{padding:clamp(3.5rem,7vw,6rem) 0;}
+.contact h2{font-size:clamp(2.8rem,7vw,5rem);line-height:.98;letter-spacing:-.02em;}
+.contact .lede{margin-top:1.2rem;max-width:42ch;font-size:1.12rem;}
+.mail{margin-top:1.5rem;font:600 clamp(1.3rem,3vw,2rem)/1.1 var(--sans);overflow-wrap:anywhere;}
+.mail button{font:inherit;background:none;border:0;color:var(--ink);cursor:pointer;padding:0;
+  border-bottom:2px solid var(--cherry);}
+.mail button:hover{color:var(--cherry);}
+.copied{margin-left:.7rem;font-size:.9rem;color:var(--brown);font-weight:600;}
+.links{margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.65rem;}
+.foot{margin-top:3.2rem;padding-top:1.2rem;border-top:1px solid var(--rule);
+  display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem;color:var(--soft);font-size:.84rem;}
+
+@media (max-width:860px){
+  .hero .wrap{grid-template-columns:1fr;}
+  .portrait{max-width:300px;order:-1;}
+  .portrait .cupart{width:55%;left:-36%;}
+  .kw-top{grid-template-columns:1fr;}
+  .ill{opacity:.6;}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="wordmark" href="#top">Aditya Shinde</a>
+    <nav class="topnav" aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#cases">Case studies</a>
+      <a href="#about">About</a>
+      <a class="btn sm solid" href="assets/Aditya_Shinde_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <img class="ill" src="assets/ill/cup.webp" alt="" width="720" height="537" style="width:clamp(9rem,17vw,16rem);right:4%;top:22%;" loading="lazy">
+    <div class="wrap">
+      <div class="herotext">
+        <h1>Aditya Shinde</h1>
+        <p class="pitch">I turn messy, data-heavy problems into B2B products that customers pay for.</p>
+        <p class="lede">Until October 2026 I was PM at Karbunwise, a climate-tech startup. Before product I spent two years building machine-learning models, so I work closely with engineers and read the data myself.</p>
+        <div class="actions">
+          <a class="btn solid" href="#work">See the work</a>
+          <a class="btn" href="assets/Aditya_Shinde_Resume.pdf" target="_blank" rel="noopener">Download resume</a>
+          <a class="btn" href="https://www.linkedin.com/in/aditya-shinde-271700205/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="metrics">
+        <div class="metric"><b>2&times;</b><span>LCA platform revenue in 8 months</span></div>
+        <div class="metric"><b>45&rarr;83%</b><span>ML match accuracy, rebuilt from scratch</span></div>
+        <div class="metric"><b>0&rarr;3</b><span>Live clients on a new product from zero</span></div>
+        <div class="metric"><b>100+</b><span>Buyer interviews turned into roadmap</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <section class="band" id="about">
+    <img class="ill" src="assets/ill/branch.webp" alt="" width="668" height="720" style="width:clamp(8rem,13vw,13rem);right:1%;top:12%;" loading="lazy">
+    <div class="wrap">
+      <h2 class="hd">How I work</h2>
+      <p class="about-lede">I judge a launch by what it changed. Revenue, accuracy, time saved and new leads. Every number here has work behind it.</p>
+      <div class="principles">
+        <div class="principle"><h3>Start with the customer</h3><p>My best launches began as conversations. Stakeholder interviews at RN Architects and 100+ buyer chats at industry events for Karbunwise.</p></div>
+        <div class="principle"><h3>Read the data myself</h3><p>An ML background means I can scope technical work with engineers, question a model's output and rebuild it when it is not good enough.</p></div>
+        <div class="principle"><h3>Ship, then measure</h3><p>I would rather put a rough version in front of real users and watch what happens than polish something nobody has touched.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- WORK -->
+  <section class="band" id="work">
+    <img class="ill" src="assets/ill/cherries.webp" alt="" width="473" height="720" style="width:clamp(7rem,11vw,11rem);right:2%;bottom:8%;" loading="lazy">
+    <div class="wrap">
+      <h2 class="hd">At Karbunwise</h2>
+      <div class="kw-top">
+        <div>
+          <h3>Product Manager</h3>
+          <p class="meta">Founder's Associate · Aug 2025 &ndash; Oct 2026 · Hyderabad</p>
+        </div>
+        <p>A climate-tech startup that helps companies measure their carbon footprint. I owned discovery, the roadmap and go-to-market across two products and rebuilt a third's ML core, working with a team of five engineers.</p>
+      </div>
+      <div class="wins">
+        <div class="win"><div class="fig">2&times;<small>REVENUE IN 8 MONTHS</small></div>
+          <div><h4>Revamped the LCA platform</h4><p>Clients kept hitting calculation errors on a fragile, patched codebase. I led an end-to-end rebuild as PM, owning discovery, PRD, roadmap and go-to-market. The complaints stopped and enterprise clients signed in the UAE, India and the UK.</p></div></div>
+        <div class="win"><div class="fig">0&rarr;3<small>LIVE CLIENTS</small></div>
+          <div><h4>Launched a CBAM compliance platform from zero</h4><p>I surfaced an EU carbon-border compliance need with manufacturers at GreenCo, sized the market, benchmarked incumbents and shipped it. Live with three clients, two manufacturers and one consultancy, with two more on trial.</p></div></div>
+        <div class="win"><div class="fig">45&rarr;83%<small>MATCH ACCURACY</small></div>
+          <div><h4>Rebuilt the emission-factor engine</h4><p>I reworked the semantic engine that maps client materials to emission factors, validated against 70k+ expert-mapped entries. Onboarding dropped from four days of manual work to under one.</p></div></div>
+        <div class="win"><div class="fig">+19%<small>ACTIVE USERS</small></div>
+          <div><h4>Opened the first inbound channel</h4><p>I built seven self-serve calculators, the company's first inbound motion on a previously outbound-only funnel. Three to five demo requests a month and a 19% lift in active site users.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CASES -->
+  <section class="band" id="cases">
+    <div class="wrap">
+      <h2 class="hd">Selected case studies</h2>
+
+      <article class="case">
+        <figure class="sketch">
+          <div class="plate"><img src="assets/ill/case-procurement.webp" alt="Engraving of roped export crates" width="700" height="760" loading="lazy"></div>
+          <figcaption class="cap">From factory floor to freight</figcaption>
+        </figure>
+        <div>
+          <h3>Cross-border procurement platform</h3>
+          <p class="body">US importers source from India over spreadsheets, email and WhatsApp, with no audit trail and no view of the factory floor. A static purchase order never matches production, so one missing customs document can hold a whole shipment. I mapped the journey in five stages and found the white space nobody owns: Flexport runs logistics, Alibaba runs discovery, the big ERPs run finance, but the middle from PO to shipment is empty. I scoped an MVP for that middle: shared PO collaboration, milestone updates with photo proof, an auditable change history and a customs-doc checklist that hands straight to the freight forwarder.</p>
+          <div class="out"><span class="r">A competitive teardown of <mark>Flexport, Alibaba and Coupa</mark>, a five-stage journey map and a prioritised MVP.</span><a href="https://aditya-s09.github.io/Procurement_SaaS/" target="_blank" rel="noopener">Read the full case study</a></div>
+        </div>
+      </article>
+
+      <article class="case">
+        <figure class="sketch">
+          <div class="plate"><img src="assets/ill/case-unnati.webp" alt="Engraving of a coin pot with a sprout" width="760" height="760" loading="lazy"></div>
+          <figcaption class="cap">Savings that grow</figcaption>
+        </figure>
+        <div>
+          <h3>Unnati, savings for rural women</h3>
+          <p class="body">Rural women are India's largest untapped savings market, but literacy, trust and access keep them out, and their income is irregular. A screen-first app would not land, because trust in a village is carried by people and not interfaces. So I designed Unnati as phygital: digital rails with a human front door. A voice-first app in the local language, goal-based savings jars, &#8377;20-a-day UPI AutoPay and digital gold, onboarded by local Sakhi agents, with kirana stores as the cash-in and cash-out points.</p>
+          <div class="out"><span class="r">A full PRD with a go-to-market built on <mark>Self-Help-Group networks</mark> and a phased roadmap to micro-credit.</span><a href="https://aditya-s09.github.io/Unnati/" target="_blank" rel="noopener">Read the full strategy</a></div>
+        </div>
+      </article>
+
+      <article class="case">
+        <figure class="sketch">
+          <div class="plate"><img src="assets/ill/case-risk.webp" alt="Engraving of a cresting wave" width="760" height="514" loading="lazy"></div>
+          <figcaption class="cap">Daily moves, hidden in the month</figcaption>
+        </figure>
+        <div>
+          <h3>Daily risk from monthly marks</h3>
+          <p class="body">Illiquid portfolios are marked once a month, which hides how violently they move day to day and understates the tail risk that regulators and investors watch. That daily structure turns out to be reconstructable, because it leaves a signature in the monthly marks once you model the hierarchy and the correlations together. I built a three-stage, hierarchy-constrained diffusion model with cross-asset attention on NIFTY50 equities, benchmarked against Denton, Brownian-Bridge and GARCH(1,1).</p>
+          <div class="out"><span class="r">Monthly marks understate tail risk by <mark>33%</mark>. The model cut drawdown error 69% and correlation error 56%.</span><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7372438" target="_blank" rel="noopener">Read on SSRN</a></div>
+        </div>
+      </article>
+
+      <article class="case">
+        <figure class="sketch">
+          <div class="plate"><img src="assets/ill/case-quickcommerce.webp" alt="Engraving of a parcel inspected with a magnifying glass" width="760" height="697" loading="lazy"></div>
+          <figcaption class="cap">Every order, checked at the door</figcaption>
+        </figure>
+        <div>
+          <h3>Quick commerce's quality crisis</h3>
+          <p class="body">As ten-minute delivery scaled, quality complaints surged, wrong items, damaged goods and expired stock, putting a fast-growing market's trust and roughly &#8377;5,000 Cr of revenue at risk. It reads like a warehouse problem but it is really a workflow one: returns are a dead end instead of a signal, and the app never asks the right question at the right moment. I proposed three fixes the support, QC and app teams could ship: refund triage that routes by failure type, a dark-store QC checkpoint before dispatch and app-side design that catches defects at the door rather than the doorstep.</p>
+          <div class="out"><span class="r">A root-cause breakdown and three <mark>workflow redesigns</mark> three teams could ship.</span><a href="https://medium.com/@adityashinde2036/the-5-000-cr-question-can-quick-commerce-fix-its-quality-crisis-before-its-too-late-a93e7e110f05" target="_blank" rel="noopener">Read the article</a></div>
+        </div>
+      </article>
+
+      <div class="more">
+        <div class="m"><p class="k">Platform concept</p><h4>DevNexus</h4><p>One living profile for student developers, pulling live stats from GitHub, LeetCode and more so recruiters see progress and not just a resume.</p></div>
+        <div class="m"><p class="k">Analytics, +15% revenue</p><h4>Campus cafe study</h4><p>Surveys, interviews and inferential statistics to find where a campus cafe leaked money. The changes that followed lifted revenue 15%.</p><a href="https://github.com/Aditya-S09/BDM_Project/blob/main/Performance_Analysis.pdf" target="_blank" rel="noopener">Read the report</a></div>
+        <div class="m"><p class="k">Registered design, YUKTI finalist</p><h4>Coinic</h4><p>An investment-awareness product, shortlisted for the final round of the government's YUKTI programme. Co-registrant on Indian design No. 396590-001.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- EARLIER -->
+  <section class="band" id="earlier">
+    <img class="ill" src="assets/ill/scoop.webp" alt="" width="720" height="307" style="width:clamp(11rem,18vw,17rem);right:3%;top:8%;" loading="lazy">
+    <div class="wrap">
+      <h2 class="hd">Before product</h2>
+      <div class="jobs">
+        <div class="job"><div class="when">Jul 2024 &ndash; Jul 2025</div>
+          <div><h4>RN Architects</h4><p class="role">AI Engineer, remote</p><p>Found through stakeholder interviews that cost estimation was the top client pain, then built a forecasting model 20% more accurate than manual estimates, which cut change-order disputes. Ran the buy-vs-build analysis on AI design tools and built a lightweight CRM from zero.</p></div></div>
+        <div class="job"><div class="when">Dec 2023 &ndash; Apr 2024</div>
+          <div><h4>Ignitus</h4><p class="role">Machine Learning Intern, USA remote</p><p>Shipped a client-segmentation classifier at 88.5% accuracy (F1 0.84) after diagnosing and fixing a severe class-imbalance bottleneck with SMOTE and threshold tuning.</p></div></div>
+        <div class="job"><div class="when">Dec 2023 &ndash; Apr 2024</div>
+          <div><h4>IIITDM Kurnool</h4><p class="role">In-house AI Intern, concurrent</p><p>Our remote campus had no round-the-clock medical help, so our team built and deployed a medical-assistant chatbot on a fine-tuned open-source model (Mistral-7B, LoRA). It ran on the institute intranet with no internet at all, so it worked fully offline and kept health queries on campus.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- BACKGROUND -->
+  <section class="band" id="background">
+    <img class="ill" src="assets/ill/bean.webp" alt="" width="160" height="156" style="width:clamp(5rem,8vw,8rem);right:3%;bottom:11%;" loading="lazy">
+    <div class="wrap">
+      <h2 class="hd">Background</h2>
+      <div class="bg-grid">
+        <div class="bg">
+          <h3>Education</h3>
+          <ul>
+            <li><b>IIITDM Kurnool</b><span>B.Tech, Artificial Intelligence and Data Science. 2020 to 2024</span></li>
+            <li><b>IIT Madras</b><span>Diploma in Data Science. 2022</span></li>
+            <li><b>CodeChef 4&#9733;, max rating 1867</b><span>Global ranks of 10, 24 and 27 in rated contests</span></li>
+          </ul>
+        </div>
+        <div class="bg">
+          <h3>Leadership and signals</h3>
+          <ul>
+            <li><b>Founder, EnB Cell IIITDM Kurnool</b><span>Grew it from zero to 500+ students and seeded the institute's first incubation centre. Represented it at the Global E-Summit 2023, IIT Kharagpur</span></li>
+            <li><b>Founder, Yugaantar NGO</b><span>1,000+ trees planted with the District Collector, 950+ pilgrims served and &#8377;85K+ raised</span></li>
+            <li><b>Registered design, Indian Patent Office</b><span>AI-Enabled Device for Stock Market Analysis, No. 396590-001</span></li>
+          </ul>
+        </div>
+        <div class="certs">
+          <h3>Certifications and programs</h3>
+          <ul>
+            <li><a href="https://www.credly.com/badges/3abb8181-cceb-4701-a66b-aaedd8c44970/public_url" target="_blank" rel="noopener">McKinsey.org Forward Program</a></li>
+            <li>Amazon ML Summer School 2023</li>
+            <li><a href="https://www.credly.com/users/aditya_shinde/badges/credly" target="_blank" rel="noopener">Google Cloud skill badges</a></li>
+            <li><a href="https://www.coursera.org/account/accomplishments/verify/N98EXXOZINGY" target="_blank" rel="noopener">Google: Foundations of Project Management</a></li>
+            <li>DeepLearning.AI: Supervised Machine Learning</li>
+          </ul>
+        </div>
+        <p class="bg-note">Outside work I write poetry, with two poems published in my institute's magazine Eunoia, and I read about decision-making and investing.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <img class="ill" src="assets/ill/branch.webp" alt="" width="668" height="720" style="width:clamp(9rem,15vw,15rem);right:4%;top:42%;" loading="lazy">
+    <div class="wrap">
+      <h2>Let's talk.</h2>
+      <p class="lede">I am looking for a product role on a team that ships. If you are building something data-heavy I would love to hear about it. If you are in Pune the coffee is on me.</p>
+      <p class="mail"><button type="button" id="copy">adityashinde2070@gmail.com</button><span class="copied" id="copied" aria-live="polite"></span></p>
+      <div class="links">
+        <a class="btn" href="mailto:adityashinde2070@gmail.com">Email me</a>
+        <a class="btn" href="https://www.linkedin.com/in/aditya-shinde-271700205/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/Aditya-S09" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://medium.com/@adityashinde2036" target="_blank" rel="noopener">Medium</a>
+        <a class="btn" href="assets/Aditya_Shinde_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </div>
+      <div class="foot"><span>&copy; 2026 Aditya Shinde</span><span>Pune, India</span></div>
+    </div>
+  </section>
+
+</main>
+
+<script>
+(function(){
+  var btn=document.getElementById('copy'),out=document.getElementById('copied');
+  if(btn){btn.addEventListener('click',function(){
+    var t='adityashinde2070@gmail.com';
+    var done=function(){out.textContent='Copied';setTimeout(function(){out.textContent='';},1800);};
+    if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,done);}else{done();}
+  });}
+})();
+</script>
+</body>
+</html>
